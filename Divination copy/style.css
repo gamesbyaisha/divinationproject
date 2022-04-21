@@ -14,7 +14,7 @@
 }
 
 .paragraph {
-    background-color: orange;
+    background-color: brown;
     padding: 20px;
     border:dotted;
     font-size: 20px;
@@ -65,12 +65,40 @@
 
 .dashboard {
     float: left;
+    background-color: black;
+    color: white;
+    border:none;
     position: absolute;
     top: 33px;
     left: 170px;
     font-size: 18px;
     font-family: Scrogglet;
 }
+
+.dashboard2 {
+    float: left;
+    background-color: black;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 33px;
+    right: 170px;
+    font-size: 18px;
+    font-family: Scrogglet;
+}
+
+.dashboard3 {
+    float: left;
+    background-color: black;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 33px;
+    right: 50%;
+    font-size: 18px;
+    font-family: Scrogglet;
+}
+
 /*.firstpage {
     background-image: url("sun.png");
 }*/
