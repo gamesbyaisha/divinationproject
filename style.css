@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url('gamesbyaisha.divinationproject/bg.png');
+    background-image: url('./gamesbyaisha.divinationproject/bg.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
