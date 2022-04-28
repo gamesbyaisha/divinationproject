@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
     <title>Divination Project</title>
 </head>
 
 <body>
     <!--logo-->
-     <img src="bg.png" alt="Background Image"
-         style="background-repeat: no-repeat; background-attachment: scroll; background-size: cover; margin: auto; display: inline-block; margin: auto;">
+    <!--<img src="bg.png" alt="Background Image"
+         style="background-repeat: no-repeat; position: relative; background-attachment: scroll; background-size: cover; display: inline-block; margin: auto;">-->
 
-    <div class="container">
+
+    <a href="mainpage.html">
+        <img src="logo.png" alt="Logo Png" style="width: 50px; height: 50px; float: left; margin: 20px 20px">
+    </a>
+    <div>
         <div class="topleft">Future</div>
     </div>
 
-
     <a href="whatispalmr.html">
         <button class="dashboard">What is palm reading?</button>
+    </a>
+
+    <a href="about.html">
+        <button class="dashboard4">About</button>
     </a>
 
     <a href="whatpalmlinesreveal.html">
@@ -39,12 +45,10 @@
     </form>-->
     <!--<h2>Hello!</h2>
     <h2>Goodbye!</h2>-->
-   <a href="mainpage.html">
-        <img src="logo.png" alt="Logo Png" style="width: 50px; height: 50px; position: absolute; float: left; margin: 20px 20px">
-    </a>
-    
-    <img src="palmhand.png" alt="Palm Photo"
-         style="width: 280px; height: 500px; vertical-align: auto; margin:100px 500px">
+
+    <img class="hand"
+         src="palmhand.png" alt="Palm Photo"
+         style="width: 280px; height: 500px; ">
 
     <div class="dropdown">
         <button class="dropbtn">My dominant hand is...</button>
@@ -53,11 +57,12 @@
             <a href=fate1.html>Left Hand</a>
         </div>
     </div>
-    
+
     <h2 class="footer">
         Aisha Bikebayeva
     </h2>
-   
+
+    <link rel="stylesheet" href="style.css">
     <script src="artistConk.js"></script>
     <script src="https://unpkg.com/rita@2.8.1/dist/rita.js"></script>
     <script src="main.js"></script>

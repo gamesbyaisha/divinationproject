@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url('https://github.com/gamesbyaisha/gamesbyaisha.divinationproject/blob/24f983a9c4917ab0f97782f26035b2f508847184/bg.png');
+    background-image: url(./bg.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -63,6 +63,13 @@
     color: white;
 }
 
+.hand {
+    position: absolute;
+    top: 233px;
+    left: 580px;
+  
+}
+
 .dashboard {
     float: left;
     background-color: black;
@@ -94,11 +101,22 @@
     border: none;
     position: absolute;
     top: 33px;
-    right: 50%;
+    right: 40%;
     font-size: 18px;
     font-family: Scrogglet;
 }
 
+.dashboard4 {
+    float: left;
+    background-color: black;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 33px;
+    right: 60%;
+    font-size: 18px;
+    font-family: Scrogglet;
+}
 /*.firstpage {
     background-image: url("sun.png");
 }*/
@@ -138,21 +156,11 @@
     padding: 16px;
     font-size: 16px;
     border: none;
-    bottom: 330px;
+    bottom: 130px;
+    left: 600px;
     min-width: 217px;
-    position: relative;
+    position: absolute;
 }
-
-/*.dropbtn2 {
-    background-color: #DFBD69;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    bottom: 330px;
-    left: 100px;
-    position: relative;
-}*/
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -163,10 +171,11 @@
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
-    position: relative;
+    position: absolute;
     background-color: #f1f1f1;
     min-width: 217px;
-    bottom: 330px;
+    bottom: 40px;
+    left: 600px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
