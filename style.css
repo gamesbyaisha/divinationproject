@@ -1,16 +1,23 @@
-﻿body {
+body {
     background-image: url(./bg.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
+/*    display: flex;*/
+/*    min-height: 100%;*/
+    min-width: 100%;
+    height:auto;
+    display:block;
     background-size: cover;
+/*    flex-direction: column;*/
+/*    background-size: 100% auto;*/
+    /*        width: 1500px;*/
     margin: auto;
     display: inline-block;
-    margin: auto;
     color: white;
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
-    position: center;
+    /*    position: center;*/
 }
 
 .paragraph {
@@ -35,7 +42,7 @@
     color: orange;
     border: none;
     font-size: 50px;
-    font-family: sans-serif;
+    font-family: Tarot;
     text-align: center;
     position: center;
     margin: auto;
@@ -44,15 +51,16 @@
 .textoutput {
     position: fixed;
     background-color: black;
+    color: orange;
     border: none;
     width: 350px;
     font-size: 30px;
     font-family: sans-serif;
     text-align: center;
     top: 60%;
-/*    margin: auto;*/
-    /*    position: center;*/
-        left: 35%;
+/*    margin: auto;
+        position: center;*/
+    left: 34%;
 }
 
 .topleft {
@@ -60,6 +68,7 @@
     top: 33px;
     left: 70px;
     font-size: 18px;
+    font-family: Tarot;
     color: white;
 }
 
@@ -74,12 +83,12 @@
     float: left;
     background-color: black;
     color: white;
-    border:none;
+    border: none;
     position: absolute;
     top: 33px;
     left: 170px;
     font-size: 18px;
-    font-family: Scrogglet;
+    font-family: Tarot;
 }
 
 .dashboard2 {
@@ -91,7 +100,7 @@
     top: 33px;
     right: 170px;
     font-size: 18px;
-    font-family: Scrogglet;
+    font-family: Tarot;
 }
 
 .dashboard3 {
@@ -103,7 +112,7 @@
     top: 33px;
     right: 40%;
     font-size: 18px;
-    font-family: Scrogglet;
+    font-family: Tarot;
 }
 
 .dashboard4 {
@@ -115,13 +124,13 @@
     top: 33px;
     right: 60%;
     font-size: 18px;
-    font-family: Scrogglet;
+    font-family: Tarot;
 }
 /*.firstpage {
     background-image: url("sun.png");
 }*/
 
-@font-face {font-family: Scrogglet; src: url('KGScrogglet.ttf')}
+@font-face {font-family: Tarot; src: url('Tarot.otf')}
 /*#heading-link { 
     color: black;
 }*/
@@ -147,6 +156,7 @@
     left: 20px;
     color: white;
     font-size: 15px;
+    font-family: Tarot;
 }
 
 /* Dropdown Button */
