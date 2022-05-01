@@ -20,6 +20,8 @@ body {
     /*    position: center;*/
 }
 
+@font-face {font-family: Tarot; src: url('Tarot.otf')}
+
 .paragraph {
     background-color: brown;
     padding: 20px;
@@ -130,7 +132,6 @@ body {
     background-image: url("sun.png");
 }*/
 
-@font-face {font-family: Tarot; src: url('Tarot.otf')}
 /*#heading-link { 
     color: black;
 }*/
